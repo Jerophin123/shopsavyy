@@ -1,0 +1,32 @@
+/* src/pages/Home.css */
+
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    width: 100px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
