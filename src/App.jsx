@@ -209,12 +209,12 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    if (username === 'jerophin' && password === '1168') {
+    if (username === 'admin' && password === 'admin') {
       alert('Login successful!');
       localStorage.setItem('token', 'dummy-token');
       localStorage.setItem('user', JSON.stringify({
-        username: 'jerophin',
-        email: 'jerophinstanley47@gmail.com',
+        username: 'admin',
+        email: 'admin@gmail.com',
       }));
       navigate('/home');
     } else {
